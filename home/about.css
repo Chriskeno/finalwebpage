@@ -51,28 +51,28 @@ section.arrow a img:hover {
 /*----------------links-----------*/
 #home img {float: left;
 position: relative;
-left: 2em;
-top:10em;}
+left: 3em;
+top:7em;}
 #home a img:hover{opacity: 0.4;}
 
 
 #about img {float: left;
 position: relative;
-top:14em;
-left:1.7em;}
+top:12em;
+left:2.7em;}
 
 
 #portfolio img {
     position: relative;
 float: left;
-left:2em;
-top: 18em;}
+left:3em;
+top: 17em;}
 #portfolio a img:hover{opacity: 0.4;}
 
 #contact img {
     position: relative;
     float: left;
-left:2em;
+left:3em;
 top:22em;}
 #contact a img:hover{opacity: 0.4;}
 

@@ -77,27 +77,27 @@ section.arrow a img:hover {opacity: 0.5}
 /*----------------links-----------*/
 #home img {float: right;
 position: relative;
-right: 2em;
-bottom:9em;}
+right: 3em;
+bottom:12em;}
 #home a img:hover{opacity: 0.4;}
 
 
 #about img {float: right;
 position: relative;
-bottom:5em;
-right:2em;}
+bottom:7em;
+right:3em;}
 #about a img:hover{opacity: 0.4;}
 
 
 #portfolio img {
     position: relative;
 float: right;
-right:1.7em;
-bottom: 1.9em;}
+right:2.7em;
+bottom: 2em;}
 
 #contact img {
     position: relative;
     float: right;
-right:2em;
-bottom:-1.9em;}
+right:3em;
+bottom:-3em;}
 #contact a img:hover{opacity: 0.4;}
