@@ -26,11 +26,21 @@ h1 {font-size: 7em;
 padding-top: 0.5em;
 color: white;}
 
-h3 {font-size: 1.5em;
-padding-top: 0.9em;
-margin-top: 2em;
-margin-left: 5em;
-margin-right: 5em;}
+h3 {font-size: 1.4em;
+    border-style: solid;
+    border-radius:5em;
+    borderleft-radius: 7em;
+    border-right-radius: 7em;
+    position: fixed;
+    left:24em;
+    top: 10em;
+    padding-top:.8em;
+    padding-bottom: .8em;
+padding-right: 1em;
+    padding-left: 1em;
+margin-top: 0em;
+margin-left: 2em;
+margin-right: 0em;}
 
 section.border{margin-top: -3em;
 padding-left: 36.4em;}
@@ -106,13 +116,13 @@ left:31.5%;
 #home img {float: left;
 position: relative;
 left: 2.7em;
-bottom:.7em;}
+top:5em;}
 #home a img:hover{opacity: 0.4;}
 
 
 #about img {float: left;
 position: relative;
-top:4em;
+top:10em;
 left:2em;}
 #about a img:hover{opacity: 0.4;}
 
@@ -120,11 +130,11 @@ left:2em;}
     position: relative;
 float: left;
 left:1.4em;
-top: 8em;}
+top: 15em;}
 #portfolio a img:hover{opacity: 0.4;}
 
 #contact img {
     position: relative;
     float: left;
 left:.4em;
-top:12em;}
+top:20em;}
