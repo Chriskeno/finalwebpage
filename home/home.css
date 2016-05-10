@@ -1,0 +1,92 @@
+/*----------CSS----------*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+  }
+
+body{
+max-width: 100%;
+ min-width: 80%;   
+	margin:0em;
+	padding-right:0em;
+    font-family: monserrat, sans-serif,Times, 'Times New Roman' serif;
+    color: #ffffff;
+    line-height: 1.8em;
+    /*image taken by Vincent Kuipers*/
+background: url(images/Vincent-Kuipers3.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;}
+
+/*---------------logo---------------*/
+.logo {padding-top: 11em;
+    padding-bottom: 9em;
+    image-resolution: from-image;
+    
+}
+
+/*---------------links--------------*/
+    a:hover {
+          color:white;
+          
+        }
+.icons a {
+
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.icons a:hover {
+  opacity: 0.8;
+}
+
+.icons li {
+display: inline;
+  margin: 0px;
+  color: #ffffff;
+    margin-left:7em;
+    
+}
+
+.icons li img {
+    width: 30px;
+display: inline;
+    
+}
+    
+
+}
+
+.icons a:hover {
+        padding: 2px;
+        /*background:;
+        color: #fff;*/
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out; 
+		-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+        border-radius: 1em;}
+
+
+.home a {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.home a:hover {
+  opacity: 0.8;
+}
+
+.home li {
+    display: inline;
+    padding-left: 9em;
+    padding-top: 7em;
+  margin: 5em;
+  color: #444;
+}

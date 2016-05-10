@@ -1,0 +1,78 @@
+/*----------CSS----------*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+  }
+
+body{
+max-width: 100%;
+ min-width: 80%;
+	margin:0em;
+	padding-right:0em;
+    font-family: monserrat, sans-serif, serif;
+    color: #9999CC;
+    line-height: 1.8em;
+background: #333366;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {font-size: 7em;
+padding-top: 0.5em;
+color: white;}
+
+p {font-size: 2em;
+padding-top: 0.9em;
+margin-top: 4.2em;}
+
+img{margin-top: -17em;
+    padding-right: -10em;
+float: right;
+height:120%;}
+
+.arrow a {
+
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.arrow a:hover {
+  opacity: 0.8;
+}
+
+section.arrow a img:hover {
+  opacity: 0.5;
+}
+/*----------------links-----------*/
+#home img {float: left;
+position: relative;
+left: 2em;
+top:10em;}
+#home a img:hover{opacity: 0.4;}
+
+
+#about img {float: left;
+position: relative;
+top:14em;
+left:1.7em;}
+
+
+#portfolio img {
+    position: relative;
+float: left;
+left:2em;
+top: 18em;}
+#portfolio a img:hover{opacity: 0.4;}
+
+#contact img {
+    position: relative;
+    float: left;
+left:2em;
+top:22em;}
+#contact a img:hover{opacity: 0.4;}
+

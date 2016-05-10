@@ -1,0 +1,130 @@
+/*----------CSS----------*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+  }
+
+body{
+max-width: 100%;
+ min-width: 80%;
+	margin:0em;
+	padding-right:0em;
+    font-family: monserrat, sans-serif, serif;
+    color: #9999CC;
+    line-height: 1em;
+background: #99CCCC;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+}
+
+
+h1 {font-size: 7em;
+padding-top: 0.5em;
+color: white;}
+
+h3 {font-size: 1.5em;
+padding-top: 0.9em;
+margin-top: 2em;
+margin-left: 5em;
+margin-right: 5em;}
+
+section.border{margin-top: -3em;
+padding-left: 36.4em;}
+
+a {color: white;}
+a:hover {opacity: 0.5}
+
+section.uparrow {margin-top: 0em;
+    position:fixed;
+    bottom:0px;
+    left:25%;
+    }
+
+section.svglinks a {
+  opacity: 0.3;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+section.svglinks a:hover {
+  opacity: 0.8;
+}
+
+section.svglinks li {
+  display: inline;
+  margin: 0px;
+  color: #444;
+}
+
+section.svglinks li img {
+  width: 0px;
+    display: inline;
+padding-left: 1em;
+    padding-top: 0em;
+}
+
+section.svglinks a:hover {
+        padding: 7px;
+        /*background:;
+        color: #fff;*/
+        border-bottom: none;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out; 
+		-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+        border-radius: 1em;}
+
+section.social{position: fixed;
+bottom:1.5em;
+left:31.5%;
+}
+
+.social a {
+  opacity: 0.3;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.social a:hover {
+  opacity: 0.8;
+}
+
+.social li {
+  display: inline;
+  margin: 5px;
+  color: #444;
+    padding-left: 4em;
+}
+
+/*----------------links-----------*/
+#home img {float: left;
+position: relative;
+left: 2.7em;
+bottom:.7em;}
+#home a img:hover{opacity: 0.4;}
+
+
+#about img {float: left;
+position: relative;
+top:4em;
+left:2em;}
+#about a img:hover{opacity: 0.4;}
+
+#portfolio img {
+    position: relative;
+float: left;
+left:1.4em;
+top: 8em;}
+#portfolio a img:hover{opacity: 0.4;}
+
+#contact img {
+    position: relative;
+    float: left;
+left:.4em;
+top:12em;}

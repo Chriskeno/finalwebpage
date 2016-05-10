@@ -1,0 +1,59 @@
+/*----------CSS----------*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+  }
+
+ * --------------------------------------- */
+		body{
+			font-family: monserrat;
+			
+		}
+		h1{
+			font-size: 6em;
+            color: white;
+		}
+		p{
+			font-size: 2em;
+            color: #9999CC
+		}
+		.content{
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			text-align: center;
+		}
+
+		/* Section 1
+		 * --------------------------------------- */
+		#home{
+			background: url(../images/Vincent%20Kuipers2.jpg)fixed,no-repeat;
+		}
+		
+
+		/* Section 2
+		 * --------------------------------------- */
+		#section1{
+			background-color: #333366;
+		}
+		#section1 h1{
+			color: #fff;
+		}
+		#section1 p{
+			color:#9999CC;
+		}
+
+
+		/* Section 3
+		 * --------------------------------------- */
+		#section2{
+			background-color: #2C3E50;
+		}
+		#section2 h1{
+			color: #F2F2F2;
+		}
+		#section2 p{
+			opacity: 0.6;
+		}

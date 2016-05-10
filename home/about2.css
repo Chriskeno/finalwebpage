@@ -1,0 +1,44 @@
+/*----------CSS----------*/
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+  }
+
+body{
+max-width: 100%;
+ min-width: 80%;
+	margin:0em;
+	padding-right:0em;
+    font-family: monserrat, sans-serif, serif;
+    color: #9999CC;
+    line-height: 1em;
+background: #003333;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+}
+
+
+p {font-size: 2em;
+padding-top: 0.9em;
+margin-top: 2em;
+margin-left: 5em;
+margin-right: 5em;}
+
+img{margin-top: -17em;
+    padding-left: 3em;
+float: left;
+height:30%;}
+
+section.backarrow a img {
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+section.backarrow a img:hover {
+  opacity: 0.5;
+}
